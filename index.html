@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Frontend Developer</title>
+    <style>
+      html {
+        scroll-behavior: smooth;
+      }
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      .container {
+        width: 80%;
+        margin: auto;
+        border: 2px solid black;
+        padding: 20px;
+      }
+      header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px;
+        border-bottom: 2px solid black;
+      }
+      nav a,
+      #name a {
+        margin: 0 10px;
+        text-decoration: none;
+        color: black;
+      }
+
+      nav a:hover,
+      #name a:hover {
+        color: blue;
+        border-bottom: 2px solid blue;
+      }
+      .title {
+        text-align: center;
+        margin: 20px 0;
+      }
+      .section-container {
+        display: flex;
+        border-top: 2px solid black;
+      }
+      .column {
+        flex: 1;
+        padding: 20px;
+        border-right: 2px solid black;
+      }
+      .column:last-child {
+        border-right: none;
+      }
+      .reviews {
+        text-align: center;
+        margin-top: 20px;
+        border-top: 2px solid black;
+        padding-top: 20px;
+      }
+      .review-box {
+        display: inline-block;
+        width: 30%;
+        padding: 10px;
+        border: 2px solid black;
+        margin: 10px;
+      }
+      footer {
+        text-align: center;
+        margin-top: 20px;
+        border-top: 2px solid black;
+        padding: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <div id="name">
+          <a
+            href="https://www.linkedin.com/in/muhammad-naufal-adnansyah-nuryadin-905b16214/"
+            ><strong>Adnonesyah</strong></a
+          >
+        </div>
+        <nav>
+          <a href="#title">Home</a> /
+          <a href="#section-container">Projects</a> /
+          <a href="#reviews">Articles</a> /
+          <a href="#footer">Contact</a>
+        </nav>
+      </header>
+
+      <div class="title" id="title">
+        <h1>Welcome to Adnonesyah Website</h1>
+        <h3>Full Stack Web Developer</h3>
+      </div>
+
+      <div class="section-container" id="section-container">
+        <div class="column">
+          <h3>Projects</h3>
+          <ul>
+            <li>HTML Only Portfolio</li>
+            <li>Calculator</li>
+            <li>Quiz App</li>
+            <li>Countdown Timer</li>
+            <li>Product Upcoming Page</li>
+          </ul>
+        </div>
+        <div class="column">
+          <h3>Work Experience</h3>
+          <p>
+            <strong>roadmap.sh</strong><br />Solved all the frontend projects
+            <br /><br />
+            <strong>OpenSource Work</strong><br />Contributed to 50 open-source
+            projects. Made my own projects with 200 GitHub Stars.
+          </p>
+          <a href="https://github.com/adnanaufal" target="_blank"
+            >Visit my GitHub Profile</a
+          >
+        </div>
+        <div class="column">
+          <h3>Education</h3>
+          <p>
+            Graduated with 3.76 out of 4 CGPA. Won Acme Hackathon. Organized 30
+            sessions.
+          </p>
+          <p><strong>Courses I took:</strong></p>
+          <ul>
+            <li>Object Oriented Programming</li>
+            <li>Data Structures and Algorithms</li>
+            <li>Web Engineering</li>
+            <li>Artificial Intelligence</li>
+            <li>Human Computer Interaction</li>
+            <li>Computer Graphics</li>
+            <li>Database Management Systems</li>
+            <li>Distributed Database Systems</li>
+            <li>Discrete Mathematics</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="reviews" id="reviews">
+        <h3>Reviews from my Teachers</h3>
+        <div class="review-box">
+          <p>
+            John Doe was a brilliant student; always stood out with his
+            assignments.
+          </p>
+          <p><strong>Jane Doe</strong><br />Assistant Professor</p>
+        </div>
+        <div class="review-box">
+          <p>
+            John Doe was a brilliant student; always stood out with his
+            assignments.
+          </p>
+          <p><strong>Jane Doe</strong><br />Assistant Professor</p>
+        </div>
+        <div class="review-box">
+          <p>
+            John Doe was a brilliant student; always stood out with his
+            assignments.
+          </p>
+          <p><strong>Jane Doe</strong><br />Assistant Professor</p>
+        </div>
+      </div>
+
+      <footer id="footer">
+        <h3>Contact Me</h3>
+        <p>naufaladnansyah@gmail.com</p>
+        <p>&copy; ALL RIGHTS RESERVED 2025</p>
+      </footer>
+    </div>
+  </body>
+</html>
